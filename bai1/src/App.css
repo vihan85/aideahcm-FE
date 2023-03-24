@@ -1,0 +1,103 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+
+.wide{
+  width: 800px;
+}
+.header{
+  border-radius: 5px;
+  overflow: hidden;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.form-container{
+  justify-content: flex-start;
+  align-items: center;
+}
+.form-group{
+  margin-left: 5px;
+  min-width: 180px;
+}
+.form-group >label{
+  font-weight: 600;
+}
+.form-control{
+  
+
+}
+.header{
+  background-color: #ffe29e;
+}
+.btn-submit {
+  background-color: #ffad0e;
+  border: none;
+  margin-left: 5px;
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  margin-top: 22px;
+  color: white;
+  font-weight: 600;
+}
+.wide{
+  width: 800px;
+}
+.content{
+ margin: 10px 0;
+}
+.body{
+  margin-top: 10px;
+}
+.content_item-img >img{
+  width: 100%;
+  object-fit:  cover;
+  width: 250px;
+  height: 250px;
+}
+.content-container{
+  margin-top: 5px ;
+}
+.content_item-title{
+  color: red;
+  font-weight: 600;
+}
+.content_item{
+  display:  flex ;
+  align-items: center;
+}
+.content_item-info{
+  margin-left: 5px;
+
+}
+.content_item-price{
+  color: #63ab55;
+  font-weight: 600;
+}
+
+.content_item-area{
+
+}
+.content_item-area >p, .content_item-des{
+  color: #b1adad;
+}
+
+.content_item-des{
+
+}
+p{
+  margin: 5px 0 !important;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 2rem;
+  padding: 1rem;
+  padding-right: 2rem;
+}
